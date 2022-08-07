@@ -5,5 +5,6 @@
         <page name='Challenge 2 - Is a string a palindrome?'/>
         <page name='Challenge 3 - Do two strings contain the same characters?'/>
         <page name='Challenge 4 - Does one string contain another?'/>
+        <page name='Challenge 5 - Count the characters'/>
     </pages>
 </playground>
