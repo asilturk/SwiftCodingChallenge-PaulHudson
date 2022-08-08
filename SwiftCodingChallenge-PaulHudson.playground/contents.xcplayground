@@ -9,5 +9,6 @@
         <page name='Challenge 6 - Remove duplicate letters from a string '/>
         <page name='Challenge 8 - String is rotated'/>
         <page name='Challenge 9 - Find pangrams'/>
+        <page name='Challenge 10 - Vowels and consonants'/>
     </pages>
 </playground>
