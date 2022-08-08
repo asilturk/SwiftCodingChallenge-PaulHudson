@@ -45,3 +45,18 @@ func isRotated_Alternative(_ text1: String, _ text2: String) -> Bool {
 }
 
 isRotated_Alternative("abcde", "deabc")
+
+
+/// Array slices
+func isRotated_Alternative2(_ text1: String, _ text2: String) -> Bool {
+    let combinedArray = Array(text1 + text1).map{ String($0) }
+    var versions = [String]()
+    for i in 0..<text1.count {
+        let str = Array(combinedArray)[i..<text1.count + i].joined()
+        versions.append(str)
+    }
+    
+    return versions.contains(text2)
+}
+
+isRotated_Alternative2("abcde", "deabc")
