@@ -7,5 +7,6 @@
         <page name='Challenge 4 - Does one string contain another?'/>
         <page name='Challenge 5 - Count the characters'/>
         <page name='Challenge 6 - Remove duplicate letters from a string '/>
+        <page name='Challenge 8 - String is rotated'/>
     </pages>
 </playground>
